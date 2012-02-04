@@ -7,7 +7,7 @@ class TokenSerializer
     @token.to_json(
       :only => [:created_at, :updated_at],
       :include => [
-        :user => { :only => [:email] }
+        :user => { :only => [:id, :email] }
       ]
     )
   end
