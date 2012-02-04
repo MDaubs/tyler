@@ -49,7 +49,7 @@ GEM
       mechanize (~> 2.0.0)
     childprocess (0.3.0)
       ffi (~> 1.0.6)
-    clearance (0.14.0)
+    clearance (0.15.0)
       diesel (~> 0.1.5)
       rails (>= 3.0)
     coffee-rails (3.2.1)
@@ -194,7 +194,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara-mechanize (~> 0.3.0.rc3)
-  clearance
+  clearance (~> 0.15.0)
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner

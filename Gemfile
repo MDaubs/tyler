@@ -21,7 +21,7 @@ end
 
 gem 'jquery-rails'
 gem 'thin'
-gem 'clearance'
+gem 'clearance', '~> 0.15.0'
 
 group :development, :test do
   gem 'rspec-rails'
